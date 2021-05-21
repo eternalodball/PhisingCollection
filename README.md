@@ -6,4 +6,5 @@ Collection of various phising pages of different social media account like :- fb
 > Upload it to your web server like apache2 etc... and change the permission to 777 , usernames and pass will be saved in logins.txt
 
 
-# Educational Purpose only !!
+## Created for personal usage if you use it ,then use for it for Educational Purpose and internal use
+# Only*
