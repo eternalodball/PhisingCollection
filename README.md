@@ -7,4 +7,3 @@ Collection of various phising pages of different social media account like :- fb
 
 
 ## Created for personal usage if you use it ,then use for it for Educational Purpose and internal use
-# Only*
