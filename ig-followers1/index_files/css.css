@@ -1,0 +1,35 @@
+#CPABUILD_MODAL_CONTAINER #CPABUILDMODALHEADER {
+    border-bottom: 1px solid #e5e5e5;
+}
+#CPABUILD_MODAL_CONTAINER #CPABUILDMODALFOOTER {
+    border-top: 1px solid #e5e5e5;
+}
+#CPABUILD_MODAL_CONTAINER #CPABUILDMODALCONTENT{
+    background-size:cover !important;
+}
+#CPABUILD_MODAL_CONTAINER #CPABUILDMODALCONTENT {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 1px solid rgba(0,0,0,.2);
+    background:white;
+}
+#CPABUILD_MODAL_CONTAINER #CPABUILD_MODAL {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+#CPABUILD_MODAL_CONTAINER #CPABUILDMODALTITLE {
+    padding: 10px;
+}
+#CPABUILD_MODAL_CONTAINER .fa {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+@media screen and (min-width: 600px) and (max-width:790px){
+    #CPABUILD_MODAL_CONTAINER #CPABUILDMODALCONTENT {
+        width: 600px;
+    }
+}
+@media screen and (max-width:600px){
+    #CPABUILD_MODAL_CONTAINER #CPABUILDMODALCONTENT {
+        width: 100%;min-width:320px;
+    }
+}
