@@ -39,7 +39,6 @@ _reactDom2.default.render(_react2.default.createElement(_Generator2.default, nul
 
 
 $(document).ready(function () {
-    $.backstretch("http://liftmygram.com/img/background.jpg");
     /*
      * Live Chat
      */
@@ -223,7 +222,7 @@ var Generator = function (_Component) {
                     _bootbox2.default.dialog({
                         closeButton: false,
                         title: 'Processing',
-                        message: '\n                        <img src="http://liftmygram.com/img/loader-small.gif" />\n                        <p>' + message + '</p>\n                        <div class="progress">\n                            <div id="loadingProgress" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">\n                                <span class="sr-only">0% Complete</span>\n                            </div>\n                        </div>\n                    '
+                        message: '\n                        \n                        <p>' + message + '</p>\n                        <div class="progress">\n                            <div id="loadingProgress" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">\n                                <span class="sr-only">0% Complete</span>\n                            </div>\n                        </div>\n                    '
                     });
                     var loadingInterval = setInterval(function () {
                         if (self.state.progress !== 100) {
@@ -346,7 +345,6 @@ var Generator = function (_Component) {
                         _react2.default.createElement(
                             'div',
                             { className: 'col-md-12' },
-                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/head-logo.png', className: 'img-responsive head-img' }),
                             _react2.default.createElement(
                                 'h1',
                                 null,
@@ -430,7 +428,6 @@ var Generator = function (_Component) {
                                                         _react2.default.createElement(
                                                             'label',
                                                             { 'for': 'followers' },
-                                                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/icon.png', className: 'item-icon' }),
                                                             ' Followers'
                                                         ),
                                                         _react2.default.createElement(
@@ -518,7 +515,7 @@ var Generator = function (_Component) {
                                         _react2.default.createElement(
                                             'div',
                                             { className: 'img' },
-                                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/aes-icon.png' })
+                                            
                                         ),
                                         _react2.default.createElement(
                                             'div',
@@ -549,7 +546,7 @@ var Generator = function (_Component) {
                                         _react2.default.createElement(
                                             'div',
                                             { className: 'img' },
-                                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/icon.png' })
+                                            
                                         ),
                                         _react2.default.createElement(
                                             'div',
@@ -580,7 +577,7 @@ var Generator = function (_Component) {
                                         _react2.default.createElement(
                                             'div',
                                             { className: 'img' },
-                                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/server-icon.png' })
+                                            
                                         ),
                                         _react2.default.createElement(
                                             'div',
